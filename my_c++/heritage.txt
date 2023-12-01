@@ -1,0 +1,28 @@
+class ArticleEnSole:public Article
+{
+
+};
+
+void Ouvrier::afficher()
+{
+	Employe::afficher();
+	cout<<" "<<heureSupp<<endl;
+>
+int main()
+{
+	Ouvrier *Ouv=new Ouvrier("...);
+	Ouv->afficher();
+	delete Ouv;
+	reurn 0;
+	
+}
+
+class C_Mere
+{
+	int x;
+	int y;
+};
+class C_Fille: public C_Mere
+{	
+	float x;
+};

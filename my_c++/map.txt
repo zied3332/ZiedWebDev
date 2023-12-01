@@ -1,0 +1,5 @@
+#include<map>
+map<string,unsigned int>montab;
+for(map<<string,unsigned int>::iterator it=montab.begin();it!=montab.end();++it)
+	cout<<it->first<<"->\t"<<it-second<<endl;
+map.insert();

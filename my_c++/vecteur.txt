@@ -1,0 +1,23 @@
+#include<vector>
+ vector<int>montab;//creer un tableau d'entiers vide
+montab.push_back(3);
+cout<<montab.front()<<endl;
+cout<<montab.back()<<endl;
+montab.pop_back();//supp_back
+cout<<montab.size()<<endl;//afficher la taille 
+sort(montab.begin(),montab.end());tri
+
+**************
+for(int i=o;i<montab.size();i++)
+	cout<<montab[i]<<endl;
+
+for(vector<int>::iterator it=montab.begin();it!=montab.end();++it)
+	cout<<''<<*it;
+
+*********************
+while(!myvector.empty())
+{
+	sum+=myvector.back();
+	myvector.pop_back();
+
+}

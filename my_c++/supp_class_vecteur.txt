@@ -1,0 +1,24 @@
+void Operateur::supprimerAbonne(Abonne& abonne)
+{
+    vector<Abonne>::iterator it=listAbonnes.begin();
+    int test=0;
+    while(it!=listAbonnes.end()&&test==0)
+    {
+
+     if(abonne.get_num()==it->get_num())
+     {
+         it=listAbonnes.erase(it);
+         test=1;
+
+     }
+     else
+     {
+         ++it;
+     }
+    }
+}
+void Operateur::supprimerAbonne(Abonne& abonne)
+{
+   liste.pop_back();
+    
+}

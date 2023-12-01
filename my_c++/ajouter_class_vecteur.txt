@@ -1,0 +1,4 @@
+void Operateur::ajouterAbonne(Abonne& abonne)
+{
+    listAbonnes.push_back(abonne);
+}

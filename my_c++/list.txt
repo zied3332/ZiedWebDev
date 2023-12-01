@@ -1,0 +1,34 @@
+les liste
+#include<list>
+list<int>montab;
+
+montab.push_back(5);
+montab.push_front(5);
+montab.size();
+
+*parcout_list
+for(list<int>::iterator it=montab.begin();it!=montab.end();++it)
+	cout<<''<<*it;
+*insertion ddans une liste
+
+iterator insert(iterator i;value_type value)
+
+ex:
+
+list<int>mylist;
+list<int>::iterator it;
+mylist.push_back(1);
+
+it=mylist.begin();
+ 
+mylist.insert(it,10);
+
+
+iterator erase(iterator pos)
+ex:
+
+list<int>""iterator i=mylist.begin();
+while(i!=mylist.end()
+{
+	i=malist.erase(i);
+}

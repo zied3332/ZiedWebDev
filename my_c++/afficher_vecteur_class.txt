@@ -1,0 +1,9 @@
+void Operateur:: afficher_tout()
+ {
+
+     for( vector<Abonne>::iterator it=listAbonnes.begin();it!=listAbonnes.end();++it)
+     {
+      // cout<<"Abonne n:"<<''<<*it<<endl;
+         it->afficher();
+     }
+ }
